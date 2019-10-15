@@ -1,0 +1,50 @@
+﻿body
+{
+    text-align:center;
+}
+#page
+{
+       width:750px;border:solid 1px Silver;
+    text-align: left;
+}
+#logo
+{
+    background-image: url(images/logo.jpg);    
+    text-align: center;
+    width:750px; height:123px;border:solid 1px Silver;
+}
+#bottom
+{
+    background-image: url(images/bottom.jpg);    
+    
+    width:750px; height:19px;
+    text-align:center;
+	font-size:small;
+	vertical-align: text-bottom;
+	padding-top:27px;
+    border:solid 1px Silver;
+}
+#left
+{
+    float:left;
+    width:185px;
+    height:150px;
+    background-color:#4D87D6;
+}
+#leftcolumn
+{
+    margin: 10px;
+    width: 165px;
+    height: 130px;
+    background-color: #99CCFF;
+}
+#left table
+{
+    height:100%;
+    width:100%;
+}
+#left td
+{
+    text-align:center;
+    font-size:small;
+}

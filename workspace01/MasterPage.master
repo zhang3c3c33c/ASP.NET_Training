@@ -1,0 +1,49 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>仁爱学院网站</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href ="StyleSheet.css" rel ="stylesheet" type ="text/css"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id ="page"> 
+        <div id ="logo">
+
+        </div>
+        <div id ="left">
+            <div id ="leftcolumn">
+                <table id ="left table">
+                    <tr>
+                        <td>
+                            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl ="~/学校简介.aspx">学校简介</asp:HyperLink>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl ="~/校园风光.aspx">校园风光</asp:HyperLink>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:HyperLink ID="HyperLink3" runat="server"  NavigateUrl ="~/考生问答.aspx">考生问答</asp:HyperLink>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div id ="bottom">
+            仁爱学院·计算机系·版权所有·2019
+        </div>
+    </div>
+    </form>
+</body>
+</html>

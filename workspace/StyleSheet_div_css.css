@@ -1,0 +1,34 @@
+﻿body { 
+}
+.alldiv
+{
+    width:760px;
+    text-align: center; border: #00ff00 1px solid;  /*绿色、1像素宽、实线边框*/
+}
+#top
+{
+    width: 100%; height: 56px;
+    line-height:56px; font-family:黑体; font-size:xx-large;     
+}
+#navigation
+{
+    /*设置层高（height）与行高（line-heigh）相等可使单行文字垂直居中*/
+    width: 100%; height: 24px; line-height:24px;
+}
+#left
+{
+    width: 100px; height: 104px; line-height:104px; float: left;  /*“float:left”表示元素向左浮动，使后续元素可跟随在该元素的右侧*/
+}
+#middle
+{
+    width: 552px; 
+height: 104px; line-height:104px; float: left;
+}
+#right
+{
+    width: 100px; height: 104px; line-height:104px; float: left; clear: right;   /*“clear:right”表示不允许元素的右边有浮动元素*/
+}
+#bottom
+{
+    width: 100%; height: 24px; line-height:24px;  font-family:黑体;  clear: both; /*“clear:both”表示不允许元素的左右两边有浮动元素*/
+}
